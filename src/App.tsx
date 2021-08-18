@@ -24,7 +24,7 @@ function App() {
         <Route path='/mypage' >
           <MyInfo />
         </Route>
-        <Route path='/admin' >
+        <Route path='/categories' >
           <Stack />
         </Route>
       </Switch>

@@ -1,9 +1,9 @@
-
+import '../../style/scss/home.scss'
 
 const Home = () => {
   return(
     <>
-    <div>home</div>
+    <div className="home">home</div>
     </>  
 )
 }

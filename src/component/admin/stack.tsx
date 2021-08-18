@@ -11,7 +11,7 @@ const Stack = () => {
   const onSetClick = useCallback((e)=>{
     e.preventDefault()
     console.log(category)
-    fetch('http://localhost:8000/admin/categories',{
+    fetch('http://localhost:8000/categories',{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -22,7 +22,7 @@ const Stack = () => {
     .then((res)=>{
       console.log(res)
     })
-  },[category])
+  },[])
 
   return (
     <div>

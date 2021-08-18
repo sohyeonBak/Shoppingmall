@@ -12,6 +12,8 @@
     "@types/react-dom": "^17.0.0",
     "@types/react-redux": "^7.1.18",
     "@types/react-router-dom": "^5.1.8",
+    "@types/redux-devtools-extension": "^2.13.2",
+    "@types/redux-saga": "^0.10.5",
     "axios": "^0.21.1",
     "node-sass": "4.14.1",
     "react": "^17.0.2",
@@ -48,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "@types/redux-devtools": "^3.7.0",
     "sass-loader": "^12.1.0"
   }
 }
