@@ -1,5 +1,5 @@
 import {BrowserRouter, Switch, Route} from "react-router-dom"
-import Stack from "./component/admin/stack";
+import Admin from "./component/admin/admin";
 import Header from "./component/header/header"
 import Home from "./component/home/home"
 import Login from "./component/login/login";
@@ -9,6 +9,7 @@ import './style/scss/App.scss';
 
 function App() {
   return (
+    <>
     <BrowserRouter>
       <Header />
       <Switch>
@@ -25,10 +26,11 @@ function App() {
           <MyInfo />
         </Route>
         <Route path='/categories' >
-          <Stack />
+          <Admin />
         </Route>
       </Switch>
     </BrowserRouter>
+    </>
   );
 }
 
